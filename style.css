@@ -1,0 +1,144 @@
+* 
+{
+  margin: 0;
+}
+
+h1 ,h2, h3
+{
+  color: #3059e0;
+  letter-spacing: -1px;
+}
+.web-title
+{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 55px;
+  background-color: #3059e0;
+  color: white;
+  padding: 15px;
+  margin-bottom: 90px;
+}
+
+.div_block
+{
+  display: block;
+
+}
+
+.about-title
+{
+  line-height: 30px;
+  font-size: 25px;
+  margin: 20px 15px 20px;
+  padding-top: 20px;
+}
+
+body
+{
+  font-family: Montserrat, sans-serif;
+  background-color: white;
+}
+
+.center
+{
+  text-align-last: center;
+}
+
+.centering
+{
+  place-content: center;
+}
+
+.foto_principal
+{
+  border: 3px solid#3059e0;
+  border-radius: 100%;
+  width: 230px ;
+}
+
+h4
+{
+  margin: 15px 10px 20px;
+  font-size:18px ;
+}
+.skills
+{
+  display: flex;
+  text-align: center;
+  place-content: center;
+  margin-bottom: 50px;
+}
+
+p .list
+{
+  display: block;  
+  color: #475550;
+  
+}
+
+h3
+{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+p 
+{
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom:80px;
+}
+.list
+{
+  list-style:inside;
+  line-height: 160%;
+  text-align: justify;
+}
+
+.link-button1
+{
+  background-color: #3059e0;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.link-button2
+{
+  background-color: #3059e0;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.social
+{
+  text-align: center;
+  margin: 30px 40px 30px;
+  padding-bottom: 20px;
+  font-size: 22px;
+
+}
+
+.links  
+{
+  place-content: center;
+  display: flex;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+}

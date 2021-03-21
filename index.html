@@ -1,101 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfólio Web </title>
-    <style>
-        body
-        {
-            font-family: fantasy,  sans-serif;
-            background-color:#679289
-            
-        }
-
-        h2 
-        {
-            color:#252627;
-        }
-        p 
-        {
-            color:#34623F;
-            font-size: 15px;
-            font-weight: 600;
-            line-height: 160%;
-        }
-        .list
-        {
-            color: #440381;
-            font-weight: bold;
-            line-height: 160%;
-            font-style: italic;
-            text-align: justify;
-        }
-        .list1
-        {
-            font-size: 19px;
-        }
-        .list2
-        {
-            font-size: 18px;
-        }
-        .list3
-        {
-            font-size: 17px;
-        }
-        .list4
-        {
-            font-size: 16px;
-        }
-        .list5 
-        {
-            font-size: 15px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <title>Portfólio Web </title>
+    
 </head>
 
-<body>
-    <h1 id="pweb">
-        Bem vindo ao meu Portifólio Web!
-    </h1>
-    <h2 id="nome">Meu nome é Thiago Cavalcante do Espirito Santo</h2>
-    <img src= "IMG_0203.jpg" width="250px" alt="Foto de Thiago Cavalcante" id="foto_principal">
-
-    <p id="sobre_mim">
-        Meu nome é <strong> Thiago Cavalcante do Espirito Santo</strong>  sou de Belo horizonte Minas Gerais - <br>
-        Sou Bacharel em Sistemas de Informação pela faculdade Puc Minas. <br>
-        Atualmente estou fazendo o curso de Web Developer pela trybe e estou na turma 11.
-    </p>
-
-    <h2 id="habilidades">
-        <em>
-        Lista de Habilidades
-        </em>
-    </h2>
-    <ul class="list">
-        <li class="list1">C#</li>
-        <li class="list2">C++</li>
-        <li class="list3">Python</li>
-        <li class="list4">SQL</li>
-        <li class="list5">Excell</li>
-    </ul>
-
-    <h2>
-        <em>
-        Links
-        </em>
-    </h2>
-
-    <a href= "#foto_principal">Foto</a><br>
-
-    <a href="https://www.ahnegao.com.br/" target="_blank">Ah Negão</a>
-
-    <h2>Índice</h2>
-
-    <a href="#pweb"> Bem Vindo</a> <br>
-    <a href="#nome"> Meu Nome</a> <br>
-    <a href="#sobre_mim"> Sobre Mim</a> <br>
-    <a href="#habilidades"> Minhas Habilidades</a>
+  <body>
+    <div>
+      <h1 class="web-title" >Web Portifólio</h1>
+    </div>
     
+    <div class="center centering" >
+      <img src= "IMG_0203.jpg"  alt="Foto de Thiago Cavalcante" class="foto_principal">
+      
+      <div class="div-block">
+        <h2 class="about-title">Thiago Cavalcante do Espirito Santo</h2>
 
-</body>
+          <h4>Desenvolvimento Web Fullstack<br> Belo Horizonte - MG</h4>          
+      </div>
+    
+    </div>
+    
+    <div>
+      <p>
+        Meu nome é <strong> Thiago Cavalcante do Espirito Santo.</strong>  Sou de Belo horizonte Minas Gerais - <br>
+        Sou Bacharel em Sistemas de Informação pela faculdade Puc Minas. <br>
+        Atualmente estou fazendo o curso de Web Developer pela Trybe.
+      </p>
+    </div>  
+      
+    <div class="skills">
+      <div>  
+        <h3>Hard Skills</h3>
+        
+        <ul class="list">
+            <li>C#</li>
+            <li>HTML / CSS / Javastript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Excell</li>
+            <li>Power BI</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+
+        <ul class="list">
+          <li>Proatividade</li>
+          <li>Empatia</li>
+          <li>Capacidade Analítica</li>
+          <li>Tomada de Decisão</li>
+          <li>Criatividade</li>
+          <li>Raciocínio Lógico</li>
+        </ul>
+      </div>
+    </div>
+     
+    <h2 class="social">Redes Sociais</h2>
+    <div class="links">
+   
+      <div>  
+        <a class="link-button1" href="https://github.com/Thiagofox" target="_blank">Github</a> 
+        <a class="link-button2" href="https://www.linkedin.com/in/thiago-cavalcante-72230088/" target="_blank">LinkedIn</a> <br>
+      </div>
+    </div>
+
+  </body>
 </html>
